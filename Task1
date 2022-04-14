@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main() {
+    float a = 47;
+    float b = (a-32)*5/9;
+    printf("В градусах Цельсия = %.2f\n", b);
+}
