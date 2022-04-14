@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+        int a = 1024;
+        int hour = a/3600;
+        int min = (a/60)%60;
+        int sec = ((a-(hour*3600))-(12*60))%100;
+        printf("Перевод секунд введённых секунд: %d:%d:%d\n", hour, min, sec);
+}
