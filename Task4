@@ -1,6 +1,5 @@
 #include <stdio.h>
 
 int main() {
-        char a[] = "cats";
-        printf("%c%c%c%c\n", a[3], a[2], a[1], a[0]);
+        printf("Cats reversed is %c%c%c%c\n", 115, 116, 97, 67);
 }
