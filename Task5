@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main() {
+        int a;
+        int b;
+        int c;
+        srand(time(NULL));
+        b = 0 + rand() % (100+1);
+        printf("Угадайте загаданное число от 1 до 100\n");
+        while (a != b) {
+                scanf("%d", &a);
+                if (a > b) {
+                printf("Меньше\n");
+                }
+                else if (a < b) {
+                printf("Больше\n");
+                }
+                else if (a = b) {
+                printf("Победа\n");
+                break;
+                }
+        }
+}
