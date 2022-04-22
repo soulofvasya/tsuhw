@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+        float x;
+        float y;
+        scanf("%f", &x);
+        if (x >= -2 && x <= -1) {
+                y = -1*x-2;
+        }
+        else if (x >= -1 && x <= 1) {
+                y = x;
+        }
+        else if (x >= 1 && x <= 2) {
+                y = -1*x+2;
+        }
+        printf("%.1f, %.1f\n", x, y);
+}
