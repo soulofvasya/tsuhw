@@ -1,5 +1,0 @@
-#include <stdio.h>
-
-int main() {
-        printf("Cats reversed is %c%c%c%c\n", 115, 116, 97, 67);
-}
